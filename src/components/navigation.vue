@@ -13,9 +13,10 @@
 export default {
   name: "navigation",
   data: () => ({
-
-  })
-}
+    searchTerm: ''
+  }),
+  props: ['searchBind']
+  }
 </script>
 <style scoped>
 </style>
